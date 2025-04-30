@@ -102,8 +102,7 @@ const CertificateOfRegistration = () => {
     paddingBottom: "90px",
   };
 
-  const studentData = filteredData.length > 0 ? filteredData[0] : {};
-
+  const studentData = data && data[0] ? data[0] : {};  
   return (
     
     <div style={containerStyle}>
