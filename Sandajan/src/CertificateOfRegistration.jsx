@@ -5,6 +5,7 @@ import FreeTuitionImage from "./assets/FT image.png";
 import EaristLogo from "./assets/EARIST LOGO.png";
 import AngeloPic from "./assets/angelo pic.jpg";
 import Angelosigniture from "./assets/signiture.png";
+import PictureQR from "./assets/PictureQR.jpg";
 
 const CertificateOfRegistration = () => {
   const [data, setData] = useState([]);
@@ -3036,7 +3037,7 @@ const CertificateOfRegistration = () => {
 
               <tr>
                 <td style={{ width: "20%", textAlign: "center" }}>
-                  <img src={FreeTuitionImage} alt="EARIST MIS FEE" style={{ marginTop: "10px", width: "200px", height: "150px", marginLeft: "150px" }} />
+                  <img src={FreeTuitionImage} alt="EARIST MIS FEE" style={{ marginTop: "10px", width: "200px", height: "150px", marginLeft: "100px" }} />
                 </td>
               </tr>
 
@@ -3051,6 +3052,20 @@ const CertificateOfRegistration = () => {
                     verticalAlign: "middle", // Centers vertically
                   }}
                 >
+
+                  <img src={PictureQR}
+                   alt=""
+                   style={{
+                    marginTop: "10px",
+                    width: "120px",
+                    height: "120px",
+                    marginTop: "-120px",
+                    marginLeft: "645px",
+                   }}
+                  
+                  
+                  
+                  />
                   <input
                     type="text"
                     value={currentDate}
